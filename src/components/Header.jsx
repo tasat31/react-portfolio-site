@@ -1,5 +1,6 @@
 import CoverImage from '../images/cover-image.jpg';
 import ProfileImage from '../images/profile-image.png';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 export const Header = () => {
   return (
@@ -15,11 +16,15 @@ export const Header = () => {
             <h1 className="title-text">Takahiro Aikou</h1>
             <h3 className="title-text">Engineer</h3>
             <ul className="social-icons">
-              <li className="social-icons">
-                {/* TODO */}
+              <li className="icon-link">
+                <a href="https://www.linkedin.com/in/aikouheartmusen" target="blank">
+                  <FaLinkedin color="white" size="2rem" />
+                </a>
               </li>
               <li className="icon-link">
-                {/* TODO */}
+                <a href="https://github.com/tasat31" target="blank">
+                  <FaGithub color="white" size="2rem" />
+                </a>
               </li>
             </ul>
           </div>
